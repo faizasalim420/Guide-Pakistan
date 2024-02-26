@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="about us" href="about.html">
+  <link rel="Tour" href="tour.html"> 
+  <link rel="contact us" href="contact.html">
+  <link rel="stylesheet" href="web.css">
+  <title>Pak Tour!</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Guide To Pakitan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tour.html">Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <div class="mx-2">
+          <button class="btn btn-danger data-bs-toggle=" modal" data-bs-target="LogIn Modal">LogIn</button>
+          <button class="btn btn-danger data-bs-toggle=" modal" data-bs-target="SignUp Modal">SignUp</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- login Modal -->
+  <div class="modal fade" id="login Modal" tabindex="-1" aria-labelledby="login ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">pak tour g lo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- signup Modal -->
+  <div class="modal fade" id="SignUp" tabindex="-1" aria-labelledby="SignUp" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...<form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="f.jpg" width="1400" height="400" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Pakistan tour</h5>
+            <h5>"Queries About Traveling in Pakistan."</h5>
+            <button class="btn btn-danger">Ready to Explore</button>
+            <button class="btn btn-primary">Advanture Activities</button>
+            <button class="btn btn-success">Beauty of Nature </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="d.jpg" width="1400" height="400" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Luxurious Tours - Unforgettable Experience</h5>
+            <h5>"Experience Pakistan's Celestial Beauty with GTP's Exclusive Tour Guide"</h5>
+            <button class="btn btn-danger">Ready to Explore</button>
+            <button class="btn btn-primary">Advanture Activities</button>
+            <button class="btn btn-success">Beauty of Nature </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="e.jpg" width="1400" height="400" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>"Explore World Heritage Destinations in Pakistan"</h5>
+            <h5>The Fascinating Cultural Diversity in Pakistan</h5>
+            <button class="btn btn-danger">Ready to Explore</button>
+            <button class="btn btn-primary">Advanture Activities</button>
+            <button class="btn btn-success">Beauty of Nature </button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container my-4">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="s3.jpg" class="card-img-top" alt="tomb">
+          <div class="card-body">
+            <h5 class="card-title">Sindh – The Land of Sufis</h5>
+            <p class="card-text">Sindh, located in present-day Pakistan, is known as the Land of Sufis due to its rich
+              history of Sufism, a mystical form of Islam. Sufism has played a significant role in shaping the culture
+              and traditions of the region, with many Sufi saints and shrines scattered throughout Sindh.
+
+              Sufi music and poetry are also an integral part of the cultural heritage of Sindh, with Sufi gatherings
+              and festivals being held regularly to celebrate the teachings of these spiritual leaders..</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="p1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Punjab – The Land of Vivid Culture</h5>
+            <p class="card-text">Punjab, Pakistan is the most populous province in Pakistan, known for its rich culture,
+              history, and agricultural heritage. It is located in the eastern part of the country and is home to major
+              cities such as Lahore, Faisalabad, and Rawalpindi..</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="kpt1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Khyber Pakhtunkhwa – The House of Breathtaking Sceneries</h5>
+            <p class="card-text">Khyber Pakhtunkhwa is a province in Pakistan located in the northwestern region of the
+              country. It is known for its stunning natural beauty, including lush valleys, towering mountains, and rich
+              cultural heritage. The province is home to various ethnic groups, including Pashtuns, Hazaras, and
+              Tajiks..</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="b1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gilgit Baltistan – The Land of Gigantic Mountains</h5>
+            <p class="card-text">Baltistan is a region in northern Pakistan, known for its stunning mountain landscapes,
+              including the famous Karakoram Range. It is also home to the Balti people, who have their own unique
+              culture and language..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <div class="container my-4">
+    <video src="v1.mp4" controls width="550" height="450"></video>
+    <video src="v3.mp4" controls width="550" height="450"></video>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <footer>
+      <div class="card">
+          <img src="f1.jpg" class="card-img" alt="..." width="770" height="350">
+          <div class="card-img-overlay my-4">
+            <div class="b-example-divider"></div>
+            <h1 class="card-title text-center">Pak tour</h1>
+            <h3 class="text-white card-text d-flex my-4 text-center align-items-center">Pakistan, where your journey
+              begins.
+              Discover your next great place, find trips and know about the famous travel destinations of Pakistan.</h3>
+            <div class="footer-bottom">
+              <div class="container">
+                <div class="footer-copyright-area d-flex  justify-content-center align-items-center flex-wrap">
+                  <div class="copyright-link text-xlg-start text-center">
+                    <h2 class="text-white">Copyright 2024 <br>
+                      Design By <a class="text-white" href="https://www..faizasalim@gmail.com/">Faiza saleem</a></h2>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+    
+          </div>
+  </footer>
+</body>
+
+</html>
